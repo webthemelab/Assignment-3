@@ -1,18 +1,27 @@
-
 //...........kilometerToMeter(problem-1)................//
+
 function kilometerToMeter(kilometer){
     const meter = kilometer / 1000;
     return meter;
 }
 kilometerToMeter();
 
+//................budgetCalculator(problen2).....................
 
 
+ var watch = 50;
+ var phone = 100;
+ var laptop = 500;
+ function budgetCalculator(watch, phone, laptop){
+    var watchPrice = watch * 50;
+    var phonePrice = phone * 100;
+    var laptopPrice = laptop * 500;
+     return watchPrice + phonePrice + laptopPrice;
+ }
+budgetCalculator();
 
 
- 
-
-//..................hotelCost(problem-3)....................//
+//..................hotelCost(problem-3)....................
 
 function hotelCost(days){
     var totalRent = 0;
